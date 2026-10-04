@@ -1,0 +1,32 @@
+/* To use smaller page titles */
+/* Post titles in the homepage list, this */
+.post-entry .entry-header h2,
+.first-entry .entry-header h2 {
+    font-size: 18px;
+}
+/* Post title on an individual post page (default 40px) */
+.post-title {
+    font-size: 20px;
+}
+
+/* Post titles in the homepage list (default 24px) */
+.entry-header h2 {
+    font-size: 20px;
+}
+
+/* Page headings: Archive, Tags (default 40px) */
+.page-header h1 {
+    font-size: 28px;
+}
+
+/* Homepage list: title on the left, date on the right */
+.post-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    padding: 10px 16px;
+}
+.post-entry .entry-footer {
+    white-space: nowrap;
+}

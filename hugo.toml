@@ -1,0 +1,51 @@
+baseURL = 'https://sosae.io/'
+locale = 'en-us'
+title = 'sosae.io'
+theme = 'PaperMod'
+enableRobotsTXT = true
+refLinksErrorLevel = 'ERROR'   # a broken internal link fails the build
+
+[pagination]
+  pagerSize = 20
+
+[params]
+  description = 'Firmware and systems software, from the register up.'
+  author = 'Esosa Ekhoragbon'
+  defaultTheme = 'auto'        # follows the reader's light/dark setting
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowBreadCrumbs = false
+  hideSummary = true           # homepage shows titles and dates, not excerpts
+  disableSpecial1stPost = true
+  hideAuthor = true
+
+  # [params.homeInfoParams]
+  #   Title = 'sosae.io'
+  #   Content = 'Notes on firmware and systems software, written as I build.'
+
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/sosaeio'
+  [[params.socialIcons]]
+    name = 'linkedin'
+    url = 'https://www.linkedin.com/in/esosae'
+
+[menu]
+  [[menu.main]]
+    name = 'Archive'
+    url = '/archives/'
+    weight = 10
+  [[menu.main]]
+    name = 'Tags'
+    url = '/tags/'
+    weight = 20
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 30
+
+  [params.label]
+  text = " "
+  iconSVG = '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Home"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M10 21v-6h4v6"/></svg>'
